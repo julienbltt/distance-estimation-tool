@@ -217,7 +217,7 @@ def main():
     cv2.imshow("Image de reference", ref_image)
     
     # Initialiser la caméra
-    cap = cv2.VideoCapture(1)  # Changez en 1 si nécessaire
+    cap = cv2.VideoCapture(0)  # Changez en 1 si nécessaire
     
     if not cap.isOpened():
         print("Erreur: Impossible d'ouvrir la caméra")
